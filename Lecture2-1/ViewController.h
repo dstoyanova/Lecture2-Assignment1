@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MMAWorker.h"
+#import "MMAAssistant.h"
+#import "MMAHomeWorker.h"
+#import "MMADepartment.h"
 
 @interface ViewController : UIViewController
 
 
 @end
-

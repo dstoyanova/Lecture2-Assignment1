@@ -14,6 +14,10 @@
 		C3BB3F0C1AC343D300368507 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BB3F0B1AC343D300368507 /* Images.xcassets */; };
 		C3BB3F0F1AC343D300368507 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BB3F0D1AC343D300368507 /* LaunchScreen.xib */; };
 		C3BB3F1B1AC343D300368507 /* Lecture2_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BB3F1A1AC343D300368507 /* Lecture2_1Tests.m */; };
+		C3BB3F261AC3441B00368507 /* MMAWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BB3F251AC3441B00368507 /* MMAWorker.m */; };
+		C3BB3F2C1AC34B7D00368507 /* MMAAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BB3F2B1AC34B7D00368507 /* MMAAssistant.m */; };
+		C3BB3F2F1AC34CCF00368507 /* MMAHomeWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BB3F2E1AC34CCF00368507 /* MMAHomeWorker.m */; };
+		C3BB3F321AC3520600368507 /* MMADepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BB3F311AC3520600368507 /* MMADepartment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		C3BB3F141AC343D300368507 /* Lecture2-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lecture2-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BB3F191AC343D300368507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3BB3F1A1AC343D300368507 /* Lecture2_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lecture2_1Tests.m; sourceTree = "<group>"; };
+		C3BB3F241AC3441B00368507 /* MMAWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAWorker.h; sourceTree = "<group>"; };
+		C3BB3F251AC3441B00368507 /* MMAWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAWorker.m; sourceTree = "<group>"; };
+		C3BB3F2A1AC34B7D00368507 /* MMAAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAAssistant.h; sourceTree = "<group>"; };
+		C3BB3F2B1AC34B7D00368507 /* MMAAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAAssistant.m; sourceTree = "<group>"; };
+		C3BB3F2D1AC34CCF00368507 /* MMAHomeWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAHomeWorker.h; sourceTree = "<group>"; };
+		C3BB3F2E1AC34CCF00368507 /* MMAHomeWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAHomeWorker.m; sourceTree = "<group>"; };
+		C3BB3F301AC3520600368507 /* MMADepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMADepartment.h; sourceTree = "<group>"; };
+		C3BB3F311AC3520600368507 /* MMADepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMADepartment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				C3BB3F0B1AC343D300368507 /* Images.xcassets */,
 				C3BB3F0D1AC343D300368507 /* LaunchScreen.xib */,
 				C3BB3EFE1AC343D300368507 /* Supporting Files */,
+				C3BB3F241AC3441B00368507 /* MMAWorker.h */,
+				C3BB3F251AC3441B00368507 /* MMAWorker.m */,
+				C3BB3F2A1AC34B7D00368507 /* MMAAssistant.h */,
+				C3BB3F2B1AC34B7D00368507 /* MMAAssistant.m */,
+				C3BB3F2D1AC34CCF00368507 /* MMAHomeWorker.h */,
+				C3BB3F2E1AC34CCF00368507 /* MMAHomeWorker.m */,
+				C3BB3F301AC3520600368507 /* MMADepartment.h */,
+				C3BB3F311AC3520600368507 /* MMADepartment.m */,
 			);
 			path = "Lecture2-1";
 			sourceTree = "<group>";
@@ -163,6 +183,7 @@
 		C3BB3EF31AC343D300368507 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MMA;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Student22;
 				TargetAttributes = {
@@ -219,9 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BB3F2F1AC34CCF00368507 /* MMAHomeWorker.m in Sources */,
 				C3BB3F071AC343D300368507 /* ViewController.m in Sources */,
+				C3BB3F2C1AC34B7D00368507 /* MMAAssistant.m in Sources */,
 				C3BB3F041AC343D300368507 /* AppDelegate.m in Sources */,
 				C3BB3F011AC343D300368507 /* main.m in Sources */,
+				C3BB3F321AC3520600368507 /* MMADepartment.m in Sources */,
+				C3BB3F261AC3441B00368507 /* MMAWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
